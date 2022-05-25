@@ -1,5 +1,7 @@
 <template>
-  <Tutorial/>
+  <section>
+    <h1>Mahdi ghyasi</h1>
+  </section>
 </template>
 
 <script>
