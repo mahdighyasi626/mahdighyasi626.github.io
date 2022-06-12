@@ -3,7 +3,7 @@
   <div class="flex flex-wrap justify-between items-center mx-auto">
         <div class="flex">
           <img src="~/assets/logo/flag.png" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
-          <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Blog</span>
+          <nuxt-link class="self-center text-xl font-semibold whitespace-nowrap dark:text-white" to="/">Blog</nuxt-link>
         </div>
         <div class="hidden w-full md:block md:w-auto" id="mobile-menu">
       <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">

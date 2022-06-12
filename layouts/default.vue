@@ -3,7 +3,7 @@
     <NavBar />
     <Nuxt />
     <div class="h-52"></div>
-    <Footer />
+    <Footer v-if="showNav"/>
   </div>
 </template>
 

@@ -1,92 +1,19 @@
 <template>
-  <div class="container">
-    <div class="h-12"></div>
-    <h1 class="text-6xl font- text-gray-800 font-bold">The Blog</h1>
-    <div class="h-9"></div>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 px-4 md:px-0">
-      <div class="bg-gradient-to-tr from-blue-400 to-blue-200 rounded-xl">
-        <!-- <span class="text-5xl text-gray-800 font-medium">Click Here For The<br> Latest Blog Post For<br> Learning New Tutorials</span> -->
-        <img class="bg-cover rounded-lg w-full h-72" src="https://images.unsplash.com/photo-1545670723-196ed0954986?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80" alt="">
-      </div>
-      <div class="bg-transparent">
-        <div class="h-4"></div>
-        <p class="pb-3">mahdi 09, June</p>
-        <h1 class="text-4xl text-gray-800 font-medium pb-3">Write and Publish<br> Your First Blog Post</h1>
-        <p>Get the best Results for Resume Writing Services<br> Nyc. Find what you are looking for! 99% Match on<br> Resume Writing<br> Services Nyc.</p>
+  <div class="grid grid-cols-1 md:grid-cols-3 min-h-full bg-black">
+    <div class="col-span-1">
+      <div class="flex flex-row md:flex-col items-center justify-center space-y-6">
+        <div class="h-52"></div>
+        <a class="text-9xl font-bold text-white block transition-all ease-in-out duration-75 transform hover:translate-x-6" href="">Home</a>
+        <a class="text-9xl font-bold text-red-600 block transition-all ease-in-out duration-75 transform hover:translate-x-6" href="">About</a>
+        <nuxt-link class="text-9xl font-bold text-red-600 block pr-28 transition-all ease-in-out duration-75 transform hover:translate-x-6" to="/blog">Blog</nuxt-link>
       </div>
     </div>
-    <div class="h-14"></div>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-10 px-4 md:px-0">
-      <div>
-        <div>
-          <img class="bg-cover rounded-md w-full h-52" src="https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="">
-        </div>
-      <div class="container space-y-4 pt-5">
-        <p class="pb-2">Maret 01, 2022</p>
-        <span class="text-gray-800 text-2xl font-medium">This blog is for different purposes to use anywhere</span>
-        <p>There's often a lot of confusion, but if you're looking for a general answer to the question, “How many sentences in a paragraph</p>
-      </div>
-      </div>
-      <div>
-        <div>
-          <img class="bg-cover rounded-md w-full h-52" src="https://images.unsplash.com/photo-1505685296765-3a2736de412f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
-        </div>
-      <div class="container space-y-4 pt-5">
-        <p class="pb-2">Maret 01, 2022</p>
-        <span class="text-gray-800 text-2xl font-medium">This blog is for different purposes to use anywhere</span>
-        <p>There's often a lot of confusion, but if you're looking for a general answer to the question, “How many sentences in a paragraph</p>
-      </div>
-      </div>
-      <div>
-        <div>
-          <img class="bg-cover rounded-md w-full h-52" src="https://images.unsplash.com/photo-1543285198-3af15c4592ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="">
-        </div>
-      <div class="container space-y-4 pt-5">
-        <p class="pb-2">Maret 01, 2022</p>
-        <span class="text-gray-800 text-2xl font-medium">This blog is for different purposes to use anywhere</span>
-        <p>There's often a lot of confusion, but if you're looking for a general answer to the question, “How many sentences in a paragraph</p>
-      </div>
-      </div>
-      <div>
-        <div>
-          <img class="bg-cover rounded-md w-full h-52" src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
-        </div>
-      <div class="container space-y-4 pt-5">
-        <p class="pb-2">Maret 01, 2022</p>
-        <span class="text-gray-800 text-2xl font-medium">This blog is for different purposes to use anywhere</span>
-        <p>There's often a lot of confusion, but if you're looking for a general answer to the question, “How many sentences in a paragraph</p>
-      </div>
-      </div>
-      <div>
-        <div>
-          <img class="bg-cover rounded-md w-full h-52" src="https://images.unsplash.com/photo-1555066931-bf19f8fd1085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" alt="">
-        </div>
-      <div class="container space-y-4 pt-5">
-        <p class="pb-2">Maret 01, 2022</p>
-        <span class="text-gray-800 text-2xl font-medium">This blog is for different purposes to use anywhere</span>
-        <p>There's often a lot of confusion, but if you're looking for a general answer to the question, “How many sentences in a paragraph</p>
-      </div>
-      </div>
-      <div>
-        <div>
-          <img class="bg-cover rounded-md w-full h-52" src="https://images.unsplash.com/photo-1505238680356-667803448bb6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
-        </div>
-      <div class="container space-y-4 pt-5">
-        <p class="pb-2">Maret 01, 2022</p>
-        <span class="text-gray-800 text-2xl font-medium">This blog is for different purposes to use anywhere</span>
-        <p>There's often a lot of confusion, but if you're looking for a general answer to the question, “How many sentences in a paragraph</p>
-      </div>
-      </div>
-
+    <div class="col-span-2 flex justify-end">
+      <img class="h-2/4" src="~/assets/images/mahdi.png" alt="">
     </div>
   </div>
 </template>
 
-<script>
-export default {
-  name: 'IndexPage'
-}
-</script>
 
 
 
@@ -98,15 +25,13 @@ export default {
 
 
 
-
-
-
-
-// <div class="grid grid-cols-12 gap-8">
-//       <div class="bg-gradient-to-tr from-red-300 to-blue-400 py-6 rounded-xl">
-//         
-//       </div>
-//       <div>
-//         
-//       </div>
+// <div class="bg-black min-h-screen">
+//     <div class="">
+//       <a class="text-6xl text-white block" href="">Home</a>
+//       <a class="text-6xl text-white block" href="">About</a>
+//       <a class="text-6xl text-white block" href="">Blog</a>
 //     </div>
+//     <div class="flex justify-end">
+//       <img class="h-3/4 w-2/3" src="~assets/images/mahdi.png" alt="">
+//     </div>
+//   </div>

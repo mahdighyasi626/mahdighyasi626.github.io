@@ -7,6 +7,9 @@ module.exports = {
         'gray': {
           250: '#E4E6EC'
         },
+        'light-black': {
+          110: '#05040B'
+        }
         // red: {
         //   600: '#E56E80',
         //   50: '#A067BB',
@@ -20,7 +23,11 @@ module.exports = {
         // lightblue: {
         //   100: '#65B5D8'
         // }
-      }
+      },
+
+      backgroundImage: {
+        'hero-pattern': "url(~/assets/images/mahdi.png)"
+      },
     },
 
     container: {
